@@ -9,7 +9,7 @@ const Header = async () => {
           <span className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-[#0d6efd] text-sm font-black tracking-wide text-white shadow-[0_12px_30px_-12px_rgba(14,165,233,0.8)]">
             NH
           </span>
-          <span className="text-lg font-semibold tracking-tight text-slate-900">
+          <span className="hidden md:block text-lg font-semibold tracking-tight text-slate-900">
             NoteHub
           </span>
         </Link>

@@ -29,13 +29,13 @@ const AuthNav = () => {
   // інакше - посилання на логін та реєстрацію
   return (
     <nav aria-label="Main Navigation">
-      <ul className="flex items-center gap-6 rounded-md  bg-[#0d6efd] py-2.5 px-4 text-sm font-medium text-white shadow-sm">
+      <ul className="flex items-center gap-3 md:gap-6 rounded-md  bg-[#0d6efd] px-2 py-1 md:py-2.5 md:px-4 text-sm font-medium text-white shadow-sm">
         {isAuthenticated ? (
           <>
             <li className={css.navigationItem}>
               <Link
                 href="/notes/filter/all"
-                className="flex items-center justify-between rounded-md px-3 py-1 text-sm font-medium text-white transition hover:bg-white hover:text-slate-900"
+                className="flex items-center justify-between rounded-md px-1 md:px-3 py-1 text-sm font-medium text-white transition hover:bg-white hover:text-slate-900"
               >
                 <span>Notes</span>
               </Link>
