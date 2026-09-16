@@ -34,10 +34,7 @@ export default function RootLayout({
         <TanStackProvider>
           <AuthProvider>
             <Header />
-            <main className="flex flex-1 flex-col">
-              {children}
-            </main>
-
+            <main className="flex flex-1 flex-col">{children}</main>
             <Footer />
           </AuthProvider>
         </TanStackProvider>
